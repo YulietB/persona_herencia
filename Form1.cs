@@ -102,7 +102,7 @@ namespace persona_herencia
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            string rutaImagen = "D:\\proyecto_poop\\parcial2-master\\bienvenida.png";
+            string rutaImagen = "D:\\proyecto_poop\\parcial2-master\\imagen\\bienvenida.png";
             pictureBox1.BackgroundImage = Image.FromFile(rutaImagen);
             label4.Visible = false;
             textBox4.Visible = false;
@@ -114,7 +114,7 @@ namespace persona_herencia
 
         private void radioempleado_CheckedChanged(object sender, EventArgs e)
         {
-            string rutaImagen = "D:\\proyecto_poop\\parcial2-master\\bienvenida.png";
+            string rutaImagen = "D:\\proyecto_poop\\parcial2-master\\imagen\\Empleado.jpg";
             pictureBox1.BackgroundImage = Image.FromFile(rutaImagen);
             label4.Visible = true;
             textBox4.Visible = true;
@@ -126,7 +126,7 @@ namespace persona_herencia
 
         private void radioalumno_CheckedChanged(object sender, EventArgs e)
         {
-            string rutaImagen = "D:\\proyecto_poop\\parcial2-master\\bienvenida.png";
+            string rutaImagen = "D:\\proyecto_poop\\parcial2-master\\imagen\\Alumno.jpg";
             pictureBox1.BackgroundImage = Image.FromFile(rutaImagen);
             label6.Visible = false;
             textBox6.Visible = false;
@@ -135,7 +135,7 @@ namespace persona_herencia
 
         private void radiodocente_CheckedChanged(object sender, EventArgs e)
         {
-            string rutaImagen = "D:\\proyecto_poop\\parcial2-master\\bienvenida.png";
+            string rutaImagen = "D:\\proyecto_poop\\parcial2-master\\imagen\\Maestro.jpg";
             pictureBox1.BackgroundImage = Image.FromFile(rutaImagen);
             label4.Visible = true;
             textBox4.Visible = true;
@@ -148,7 +148,7 @@ namespace persona_herencia
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            string rutaImagen = "D:\\proyecto_poop\\parcial2-master\\bienvenida.png";
+            string rutaImagen = "D:\\proyecto_poop\\parcial2-master\\imagen\\bienvenida.png";
 
             radioalumno.Checked = false;
             radioButton1.Checked = false;
